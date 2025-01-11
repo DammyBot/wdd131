@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+/* Header and footer */
+
+.top,
+.bottom {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #407899;
+}
+
+.top h1 {
+    color: #ffff;
+    font-weight: 400;
+}
+
+.bottom p {
+    color: #ffff;
+    font-weight: 300;
+}
+
+.modified p,
+.getdate {
+    color: #E0E2DB;
+    text-align: center;
+    display: inline;
+}
+
+.modified {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    flex: auto;
+    padding: .5rem;
+}
+
+/* Navigation */
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    flex: auto;
+    text-align: center;
+    background-color: #0D1321;
+    padding: 1rem;
+}
+
+.nav li:hover {
+    background-color: #1D2D44;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #E0E2DB;
+    font-size: larger;
+}
+
+/* Body */
+.main_body {
+    display: flex;
+
+    padding: 1rem;
+}
+
+.main {
+    margin-left: 1rem;
+}
+
+.about_me {
+    display: grid;
+    grid-template-columns: auto;
+
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+
+    width: 70vw;
+}
+
+.resources {
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .5rem;
+    width: 30vw;
+}
+
+.webResources {
+    height: 100%;
+}
+
+.webResources ul {
+    height: max-content;
+}
+
+.intro {
+    text-align: center;
+    background-color: #407899;
+    color: white;
+    padding: .6rem;
+
+    border-radius: .5rem .5rem 0 0 ;
+}
+
+.content {
+    display: flex;
+    padding: 1rem;
+}
+
+.content p,
+.content h3 {
+    text-align: center;
+    padding: .2rem;
+}
+
+.content h3{
+    color: rgb(54, 53, 53);
+}
+
+.content .img img {
+    width: auto;
+    height: 25vh;
+
+    padding: 1rem;
+}
+
+.ibadan {
+    display: flex;
+}
+
+.ibadan img {
+    width: 10vw;
+    height: 10vh;
+}
+
