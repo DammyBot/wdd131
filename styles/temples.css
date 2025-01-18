@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --purple: #3c0a64;
     --border: 1px solid rgba(0, 0, 0, .3);
@@ -9,10 +11,17 @@
 
     list-style-type: none;
     text-decoration: none;
+
+    font-family: "Montserrat", serif;
+    font-size: medium;
 }
 
 nav {
     width: fit-content;
+}
+
+h1,h2 {
+    font-size: larger;
 }
 
 .navigation {
@@ -96,7 +105,7 @@ nav {
     padding: .5rem;
 }
 
-main {
+.images {
     max-width: 800px;
     margin: auto;
 
@@ -121,4 +130,9 @@ figcaption {
 
 figure img {
     width: 100%;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
 }
