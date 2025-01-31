@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+img {
+    width: 400px;
+    height: 600px;
+    display: block;
+    padding: 20px;
+    margin: auto;
+
+    animation: fade 5s;
+}
+footer{ 
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

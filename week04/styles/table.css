@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    /* margin: 0; */
+}
+caption {
+    caption-side: bottom;
+    font-size: small;
+}
+table{
+    background-color: #333333;
+}
+tr:nth-child(1) th {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+tr:nth-child(2) th:nth-of-type(1){
+    background-color: black;
+}
+tr th {
+    background-color: #333333;
+    color: white;
+
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+tr td {
+    padding: 10px;
+    background-color: white;
+}
+tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+}
+tr td:nth-of-type(1) {
+    font-size: larger;
+    font-weight: bold;
+}
